@@ -28,7 +28,7 @@ Constraints:
 '''
 
 
-"""if number n is power of two then its ANDING with n-1 is zero because there is only
+"""if number n is power of two then its bitwise ANDING with n-1 is zero because there is only
  one bit is 1 eg: for 8 binary is : 1000"""
 
 class Solution(object):
