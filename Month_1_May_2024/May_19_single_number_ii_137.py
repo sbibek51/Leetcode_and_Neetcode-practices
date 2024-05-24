@@ -29,3 +29,4 @@ class Solution(object):
 
 obj = Solution()
 print(obj.singleNumber([1,1,1,2,2,2,3,3,3,4]))
+print(obj.singleNumber([0,1,0,1,0,1,99]))
