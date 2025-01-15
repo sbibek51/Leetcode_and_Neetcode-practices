@@ -43,3 +43,14 @@ call_me(s)
 
 s = "([{}])}"
 call_me(s)
+
+
+#alternative way
+'''
+class Solution:
+    def isValid(self, s: str) -> bool:
+        while '()' in s or '{}' in s or '[]' in s:
+            s = s.replace('()', '')
+            s = s.replace('{}', '')
+            s = s.replace('[]', '')
+        return s == '''''
