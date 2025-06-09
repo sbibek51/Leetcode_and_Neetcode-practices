@@ -9,6 +9,19 @@ You may assume that every input has exactly one pair of indices i and j that sat
 Return the answer with the smaller index first.
 '''
 
+
+
+'''
+nums= [15,26,33,14]
+hashmap ={}
+
+hashmap
+valule  index
+15         0
+26         1
+33          2
+14          3
+'''
 class Solution:
     def twoSum(self,nums:list[int],target:int)->list[int]:
         hashPrev={} # to create a hashmap of all elements
